@@ -54,8 +54,8 @@ const getPayload = token => {
     <!-- <div class="bg-white/50 backdrop-filter backdrop-blur-lg h-[50vh] w-[20vw] rounded-lg shadow-lg border border-gray-600 flex items-center justify-center"> -->
     <form class="w-[294px]">
       <div class="text-center font-bold">
-        <div class="text-3xl">宁波理工附属小学</div>
-        <div class="mt-2 text-2xl">图书管理系统</div>
+        <div class="text-3xl">前后端 Demo</div>
+        <div class="mt-2 text-2xl">默认账号1 密码123</div>
       </div>
       <el-input class="mt-4 mb-4" v-model="account.id" placeholder="账号" clearable />
       <el-input placeholder="密码" v-model="account.password" show-password />

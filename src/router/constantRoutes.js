@@ -17,9 +17,5 @@ const constantRoutes = [
     name: "NotAuthorized",
     component: () => import("@/views/ErrorPage/NotAuthorized.vue"),
   },
-  {
-    path: "/test",
-    component: () => import("@/views/test.vue"),
-  },
 ];
 export default constantRoutes;
