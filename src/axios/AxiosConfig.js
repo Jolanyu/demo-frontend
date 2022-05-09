@@ -1,5 +1,4 @@
 import axios from "axios";
-import qs from "qs";
 import { ElNotification } from "element-plus";
 
 axios.defaults.baseURL = "/api";
